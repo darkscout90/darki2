@@ -1,4 +1,4 @@
-#Thu May 13 19:06:14 MSK 2021
-base.0=E\:\\Users\\darkscout\\AndroidStudioProjects\\firstlesson\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Fri May 14 21:17:03 MSK 2021
+base.0=E\:\\Users\\darkscout\\Documents\\GitHub\\darki2\\task_11.1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

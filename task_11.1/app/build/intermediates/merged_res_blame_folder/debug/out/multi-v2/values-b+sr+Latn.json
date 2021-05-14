@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Users\\darkscout\\AndroidStudioProjects\\firstlesson\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "outputFile": "E:\\Users\\darkscout\\Documents\\GitHub\\darki2\\task_11.1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "E:\\Users\\darkscout\\.gradle\\caches\\transforms-2\\files-2.1\\a527ad4f532df6b258c428a911debd89\\appcompat-1.2.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
