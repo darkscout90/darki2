@@ -1,0 +1,6 @@
+com/example/firstlesson/BuildConfig.java
+ com.example.firstlesson.BuildConfig
+com/example/firstlesson/MainActivity.java
+ com.example.firstlesson.MainActivity
+ com.example.firstlesson.MainActivity$1
+ com.example.firstlesson.MainActivity$2
