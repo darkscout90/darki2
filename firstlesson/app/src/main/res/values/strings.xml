@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">firstlesson</string>
+    <string name="correct">Правильно</string>
+    <string name="incorrect">Неправильно</string>
+</resources>
