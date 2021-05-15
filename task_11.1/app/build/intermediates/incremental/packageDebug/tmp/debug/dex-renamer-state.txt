@@ -1,4 +1,10 @@
-#Fri May 14 21:17:03 MSK 2021
-base.0=E\:\\Users\\darkscout\\Documents\\GitHub\\darki2\\task_11.1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sat May 15 12:34:07 MSK 2021
+path.2=11/classes.dex
+path.1=0/classes.dex
 path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.2=E\:\\Users\\darkscout\\Documents\\GitHub\\darki2\\firstApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.1=E\:\\Users\\darkscout\\Documents\\GitHub\\darki2\\firstApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=E\:\\Users\\darkscout\\Documents\\GitHub\\darki2\\firstApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex

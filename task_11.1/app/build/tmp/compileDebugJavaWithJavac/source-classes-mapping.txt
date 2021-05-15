@@ -1,6 +1,13 @@
-com/example/firstlesson/BuildConfig.java
- com.example.firstlesson.BuildConfig
-com/example/firstlesson/MainActivity.java
- com.example.firstlesson.MainActivity
- com.example.firstlesson.MainActivity$1
- com.example.firstlesson.MainActivity$2
+com/example/firstapp/Question.java
+ com.example.firstapp.Question
+com/example/firstapp/BuildConfig.java
+ com.example.firstapp.BuildConfig
+com/example/firstapp/AnswerActivity.java
+ com.example.firstapp.AnswerActivity
+com/example/firstapp/Itogi.java
+ com.example.firstapp.Itogi
+com/example/firstapp/MainActivity.java
+ com.example.firstapp.MainActivity
+ com.example.firstapp.MainActivity$1
+ com.example.firstapp.MainActivity$2
+ com.example.firstapp.MainActivity$3

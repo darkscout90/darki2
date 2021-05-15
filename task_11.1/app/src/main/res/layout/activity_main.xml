@@ -1,55 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EDEFEC"
     tools:context=".MainActivity">
-
+    <!-- Комментарий только между тегами! -->
     <TextView
-        android:layout_width="150dp"
-        android:layout_height="64dp"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center"
-        android:text="2+2=4"
-        android:textSize="24sp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="34sp"
+        android:text="@string/question0"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="409dp"
+        android:layout_height="344dp"
         android:gravity="center"
         android:orientation="horizontal"
+        android:paddingTop="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
 
         <Button
-            android:id="@+id/butyes"
-            android:layout_width="182dp"
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Button"
-            android:textColor="#FF1414"
-            app:backgroundTint="#FFFFFF"
-            tools:layout_editor_absoluteX="86dp"
-            tools:layout_editor_absoluteY="141dp" />
+            android:layout_gravity="top"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:background="#4CAF50"
+            android:text="@string/yes"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <Button
-            android:id="@+id/butno"
-            android:layout_width="100dp"
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:text="Button" />
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0"
+            android:background="#E91E63"
+            android:text="@string/no"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/showAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать ответ"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
