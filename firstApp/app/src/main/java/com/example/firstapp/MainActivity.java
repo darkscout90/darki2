@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    public String str="";
     private Button yesBtn;
     private Button noBtn;
     private Button showAnswer;
@@ -42,25 +43,51 @@ public class MainActivity extends AppCompatActivity {
         yesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(questions[questionIndex].isAnswerTrue())
+                if(questions[questionIndex].isAnswerTrue()){
                     Toast.makeText(MainActivity.this,R.string.correct,Toast.LENGTH_SHORT).show();
-                else
+                    str +=getString(questions[questionIndex].getQuestionResId()) +"Ответ:"+getString(R.string.correct)+"\n";
+                }
+
+                else{
                     Toast.makeText(MainActivity.this,R.string.incorrect,Toast.LENGTH_SHORT).show();
+                    str +=getString(questions[questionIndex].getQuestionResId()) +" Ответ:"+getString(R.string.incorrect)+"\n";
+                }
+
+
+
+
 
                 questionIndex = (questionIndex+1)%questions.length;
                 textView.setText(questions[questionIndex].getQuestionResId());
+                if (questionIndex==questions.length-1){
+                   Intent intent = new Intent(MainActivity.this,Itogi.class);
+                   intent.putExtra("key1",str);
+                   startActivity(intent);
+                }
             }
         });
         noBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(questions[questionIndex].isAnswerTrue())
+                if(questions[questionIndex].isAnswerTrue()){
                     Toast.makeText(MainActivity.this,R.string.incorrect,Toast.LENGTH_SHORT).show();
-                else
+                    str +=getString(questions[questionIndex].getQuestionResId()) +" Ответ:"+getString(R.string.incorrect)+"\n";
+                }
+
+                else{
                     Toast.makeText(MainActivity.this,R.string.correct,Toast.LENGTH_SHORT).show();
+                    str +=getString(questions[questionIndex].getQuestionResId()) +"Ответ:"+getString(R.string.correct)+"\n";
+
+                }
+
 
                 questionIndex = (questionIndex+1)%questions.length;
                 textView.setText(questions[questionIndex].getQuestionResId());
+                if (questionIndex==questions.length-1){
+                    Intent intent = new Intent(MainActivity.this,Itogi.class);
+                    intent.putExtra("key1",str);
+                    startActivity(intent);
+                }
             }
         });
         showAnswer.setOnClickListener(new View.OnClickListener() {
