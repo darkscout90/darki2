@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Users\\darkscout\\Documents\\GitHub\\darki2\\firstApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\Users\\darkscout\\Documents\\GitHub\\darki2\\task_11.1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "E:\\Users\\darkscout\\.gradle\\caches\\transforms-2\\files-2.1\\76bb06ac16050042dd28f2f6517f7567\\constraint-layout-2.0.4\\res\\values\\values.xml",
@@ -23,20 +23,22 @@
                     }
                 },
                 {
-                    "source": "E:\\Users\\darkscout\\Documents\\GitHub\\darki2\\firstApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\Users\\darkscout\\Documents\\GitHub\\darki2\\task_11.1\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "1,2,3,5,6,7,8,9,10,11,4",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "16,62,109,195,230,274,342,404,450,494,160",
-                        "endColumns": "45,46,50,34,43,67,61,45,43,44,34",
-                        "endOffsets": "57,104,155,225,269,337,399,445,489,534,190"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "447"
                     },
                     "to": {
-                        "startLines": "539,540,541,542,543,544,545,546,547,548,551",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "29235,29281,29328,29379,29414,29458,29526,29588,29634,29678,29847",
-                        "endColumns": "45,46,50,34,43,67,61,45,43,44,34",
-                        "endOffsets": "29276,29323,29374,29409,29453,29521,29583,29629,29673,29718,29877"
+                        "startLines": "1912",
+                        "startColumns": "4",
+                        "startOffsets": "120790",
+                        "endLines": "1918",
+                        "endColumns": "12",
+                        "endOffsets": "121137"
                     }
                 },
                 {
@@ -59,22 +61,20 @@
                     }
                 },
                 {
-                    "source": "E:\\Users\\darkscout\\Documents\\GitHub\\darki2\\firstApp\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "E:\\Users\\darkscout\\Documents\\GitHub\\darki2\\task_11.1\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "447"
+                        "startLines": "1,2,3,5,6,7,8,9,10,11,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "16,62,109,195,230,274,342,404,450,494,160",
+                        "endColumns": "45,46,50,34,43,67,61,45,43,44,34",
+                        "endOffsets": "57,104,155,225,269,337,399,445,489,534,190"
                     },
                     "to": {
-                        "startLines": "1912",
-                        "startColumns": "4",
-                        "startOffsets": "120790",
-                        "endLines": "1918",
-                        "endColumns": "12",
-                        "endOffsets": "121137"
+                        "startLines": "539,540,541,542,543,544,545,546,547,548,551",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "29235,29281,29328,29379,29414,29458,29526,29588,29634,29678,29847",
+                        "endColumns": "45,46,50,34,43,67,61,45,43,44,34",
+                        "endOffsets": "29276,29323,29374,29409,29453,29521,29583,29629,29673,29718,29877"
                     }
                 },
                 {
@@ -97,7 +97,7 @@
                     }
                 },
                 {
-                    "source": "E:\\Users\\darkscout\\Documents\\GitHub\\darki2\\firstApp\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "E:\\Users\\darkscout\\Documents\\GitHub\\darki2\\task_11.1\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "7,2,3,4,5,6,8",
                         "startColumns": "4,4,4,4,4,4,4",

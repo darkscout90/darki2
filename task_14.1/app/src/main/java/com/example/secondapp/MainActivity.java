@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
         deleteUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              //  Intent intent = new Intent(MainActivity.this, DeleteUser.class);
-               // startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, DeleteUser.class);
+                startActivity(intent);
             }
         });
         test.setOnClickListener(new View.OnClickListener() {
